@@ -1,0 +1,92 @@
+.da-slider {
+	width: 100%;
+	min-width: 300px;
+	height: 450px;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #fbfbfb url(../img/slides/slitslider/2.jpg) repeat 0% 0%;
+	-webkit-transition: background-position 1s ease-out 0.3s;
+	-moz-transition: background-position 1s ease-out 0.3s;
+	-o-transition: background-position 1s ease-out 0.3s;
+	-ms-transition: background-position 1s ease-out 0.3s;
+	transition: background-position 1s ease-out 0.3s;
+}
+li p.text{margin-bottom: 0px !important;}
+.testimonial{
+	color: #c09853;
+	background-color: #fcf8e3;
+	border: 1px solid #fbeed5;
+}
+.testimonial p.text{
+	color: #c09853 !important;
+}
+.box {
+  font: 10px sans-serif;
+}
+
+/* d3 drectives */
+
+.box line,
+.box rect,
+.box circle {
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.box .center {
+  stroke-dasharray: 3,3;
+}
+
+.box .outlier {
+  fill: none;
+  stroke: #ccc;
+}
+
+#perBaseQuality rect.box{fill:#fcf8e3;}
+#perBaseQuality line.median{stroke:red;}
+#inner-headline.patients{background: url('/img/patients.jpg');}
+#inner-headline.analyses{background: url('/img/analyses.jpg');}
+#inner-headline.samples{background: url('/img/samples.jpg');}
+#inner-headline.analyses h2,#inner-headline.analyses .breadcrumb li,#inner-headline.analyses .breadcrumb a,#inner-headline.analyses .breadcrumb i{color:#353535}
+#inner-headline.files{background: url('/img/files.jpg');}
+#inner-headline{
+	border-top:1px solid #eee;
+	-moz-transition: opacity .6s ease-in-out;
+	-o-transition: opacity .6s ease-in-out;
+	-webkit-transition: opacity .6s ease-in-out;
+	transition: opacity .6s ease-in-out;
+	z-index: 2;
+	-moz-box-shadow: inset 0 5px 8px -5px rgba(0,0,0,.06);
+	-webkit-box-shadow: inset 0 5px 8px -5px rgba(0,0,0,.06);
+	box-shadow: inset 0 5px 8px -5px rgba(0,0,0,.06);
+	line-height: 0;
+	
+	
+}
+#inner-headline h2,#inner-headline a{text-shadow: 1px 1px 1px rgba(0,0,0,.7);}
+aside accordion .widget {
+margin-bottom: 20px;
+margin-top: 20px;
+}
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node {
+  font: 10px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+.btn-blue {
+border: 1px solid #3d5da1;
+color: #fff;
+background: #3d5da1;
+}
