@@ -1,25 +1,3 @@
-{
-    "app": {
-        "name": "Dataportal. An integrated platform connecting databases, registries, biobanks and clinical bioinformatics"
-    },
-    "facebook": {
-        "clientID": "APP_ID",
-        "clientSecret": "APP_SECRET",
-        "callbackURL": "http://localhost:3000/auth/facebook/callback"
-    },
-    "twitter": {
-        "clientID": "CONSUMER_KEY",
-        "clientSecret": "CONSUMER_SECRET",
-        "callbackURL": "http://localhost:3000/auth/twitter/callback"
-    },
-    "github": {
-        "clientID": "APP_ID",
-        "clientSecret": "APP_SECRET",
-        "callbackURL": "http://localhost:3000/auth/github/callback"
-    },
-    "google": {
-        "clientID": "APP_ID",
-        "clientSecret": "APP_SECRET",
-        "callbackURL": "http://localhost:3000/auth/google/callback"
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:932ebd25ae1c50c386aa69f7c5d075f1a10ab0397093c2d256526558abdef488
+size 799
